@@ -1,0 +1,17 @@
+additionalPolicies:
+  master: |
+    [
+      {
+        "Effect": "Allow",
+        "Action": ["iam:CreateServiceLinkedRole"],
+        "Resource": ["*"]
+      }
+    ]
+  node: |
+    [
+      {
+        "Effect": "Allow",
+        "Action": ["iam:CreateServiceLinkedRole"],
+        "Resource": ["*"]
+      }
+    ]
